@@ -13,6 +13,18 @@
 
 .movieImage {
   border-radius: 15px;
+  animation: on 1s ease;
+}
+@keyframes on {
+  from{
+    opacity: 0;
+    scale: 0;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+
 }
 
 .movieDetails {
